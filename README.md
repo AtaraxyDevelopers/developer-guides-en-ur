@@ -9,7 +9,11 @@ An open-source project from [Ataraxy Developers](https://github.com/AtaraxyDevel
 
 ## Quick start
 
-Requires Node.js 22 or 24 and npm. Git is optional if you download the source ZIP.
+Install [Node.js](https://nodejs.org/en/download) 22 or 24 (npm is included). Check
+`node --version` and `npm --version` in your terminal. The commands below run from
+this repository's root folder, the one containing `package.json`.
+
+**With Git:**
 
 ```sh
 git clone https://github.com/AtaraxyDevelopers/developer-guides-en-ur.git
@@ -17,6 +21,15 @@ cd developer-guides-en-ur
 npm ci
 npm test
 ```
+
+**Without Git:** choose **Code → Download ZIP** on GitHub, extract the archive,
+and open a terminal in the extracted `developer-guides-en-ur-main` folder (release archives may
+include the version in the folder name). Run `npm ci` and `npm test` there.
+Use the **source-code ZIP**, not an npm `.tgz` package, to follow this developer walkthrough.
+The install step may need internet access; the examples run locally afterward.
+
+On Windows PowerShell, if `npm.ps1` is blocked by execution policy, use `npm.cmd`
+in place of `npm` in these commands. No execution-policy change is required.
 
 Run every lesson, or choose one:
 
@@ -67,6 +80,10 @@ These are small educational examples with synthetic inputs, not production servi
 The retry lesson intentionally omits a production retry policy; the UTC lesson is
 for timestamps with explicit offsets, not date-only fields. See each lesson's contract
 before copying it into an application.
+
+## Expected first run
+
+The demo runs all ten lessons and prints each result. The lesson list shows English and Urdu titles. File and HTTP examples clean up their own temporary resources.
 
 ## Contributing and support
 

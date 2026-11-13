@@ -26,3 +26,8 @@ Compare midnight in UTC+05:00 with midnight UTC. Avoid this conversion for a dat
 
 Read the function in example.mjs, make one change, then run the lesson and npm test.
 Use the tests to explain the contract, not just to obtain a green result.
+
+This lesson accepts ISO timestamps with seconds, an explicit Z or numeric offset,
+and optional 1–3 fractional digits. Hours must be 00–23; leap seconds and impossible
+calendar dates are rejected. JavaScript otherwise normalizes some impossible dates,
+so calendar validation happens before UTC conversion.
