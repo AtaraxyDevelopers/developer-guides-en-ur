@@ -1,0 +1,23 @@
+{
+  "name": "@ataraxydevelopers/developer-guides-en-ur",
+  "version": "0.1.0",
+  "description": "Ten bilingual practical lessons with runnable JavaScript examples and tests.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "author": "Ataraxy Developers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtaraxyDevelopers/developer-guides-en-ur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AtaraxyDevelopers/developer-guides-en-ur/issues"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/run.mjs all",
+    "lesson": "node src/run.mjs"
+  }
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "01",
+    "title": "Parse configuration safely",
+    "ur": "ترتیبات کو درست طریقے سے پڑھیں",
+    "expected": {
+      "configured": 4310,
+      "fallback": 3000
+    }
+  },
+  {
+    "id": "02",
+    "title": "Normalize and deduplicate text",
+    "ur": "متن کی یکساں صورت اور نقل کی پہچان",
+    "expected": ["Ali", "é", "عائشہ"]
+  },
+  {
+    "id": "03",
+    "title": "Validate input without crashing",
+    "ur": "اندراج کی جانچ میں پروگرام کو محفوظ رکھیں",
+    "expected": [
+      {
+        "ok": false,
+        "error": "Expected an object"
+      },
+      {
+        "ok": true,
+        "name": "عائشہ"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Handle an asynchronous failure",
+    "ur": "غیر ہم وقتی کام کی ناکامی سنبھالیں",
+    "expected": {
+      "attempts": 2,
+      "result": "recovered"
+    }
+  },
+  {
+    "id": "05",
+    "title": "Write and read a JSON file",
+    "ur": "JSON فائل لکھیں اور پڑھیں",
+    "expected": {
+      "message": "السلام علیکم",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "06",
+    "title": "Call a local HTTP endpoint",
+    "ur": "مقامی HTTP درخواست بھیجیں",
+    "expected": {
+      "message": "hello from loopback"
+    }
+  },
+  {
+    "id": "07",
+    "title": "Test behavior and boundaries",
+    "ur": "رویے اور حدود کی جانچ کریں",
+    "expected": {
+      "checksPassed": 3
+    }
+  },
+  {
+    "id": "08",
+    "title": "Keep secrets out of output",
+    "ur": "خفیہ معلومات کو آؤٹ پٹ سے دور رکھیں",
+    "expected": {
+      "tokenConfigured": true,
+      "mode": "development"
+    }
+  },
+  {
+    "id": "09",
+    "title": "Understand UTC date boundaries",
+    "ur": "UTC تاریخ کی حد سمجھیں",
+    "expected": {
+      "utcDay": "2025-12-31"
+    }
+  },
+  {
+    "id": "10",
+    "title": "Paginate without changing the source",
+    "ur": "اصل فہرست بدلے بغیر صفحہ بندی کریں",
+    "expected": {
+      "first": [1, 2],
+      "last": [5],
+      "beyond": []
+    }
+  }
+]
