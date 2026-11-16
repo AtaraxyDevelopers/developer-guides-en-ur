@@ -1,3 +1,5 @@
+<p><a href="https://ataraxydevelopers.com"><img src="docs/brand/ataraxy-developers-logo.png" alt="Ataraxy Developers — Turning Digital Visions Into Reality" width="520"></a></p>
+
 # Developer Guides: English and Urdu
 
 [![CI](https://github.com/AtaraxyDevelopers/developer-guides-en-ur/actions/workflows/ci.yml/badge.svg)](https://github.com/AtaraxyDevelopers/developer-guides-en-ur/actions/workflows/ci.yml)

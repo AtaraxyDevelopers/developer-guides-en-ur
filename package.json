@@ -1,6 +1,6 @@
 {
   "name": "@ataraxydevelopers/developer-guides-en-ur",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ten bilingual practical lessons with runnable JavaScript examples and tests.",
   "type": "module",
   "engines": {
